@@ -1,0 +1,35 @@
+body{
+    background-image: url(./assets/home.png);
+}
+
+div{
+    display: flex;
+    justify-content: space-around;
+    padding: 30px;
+}
+
+img{
+    height: 350px;
+    width: 230px;
+    transition: 300ms;
+}
+
+img:hover{
+    transform: scale(110%);
+}
+
+button{
+    background-color: black;
+    color: white;
+    padding: 15px;
+    border-radius: 15px;
+    transition: 300ms;
+}
+
+button:hover{
+    color: grey;
+}
+
+.selected{
+    outline: 3px solid palevioletred;
+}
